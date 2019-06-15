@@ -18,7 +18,7 @@ chmod 777 install.sh sync.sh
 
 3. Run `./sync.sh` to sync files and `./install.sh` to install the files
 
-# VSCode
+## VSCode
 
 1. Install [VSCode sync](https://marketplace.visualstudio.com/items?itemName=nonoroazoro.syncing)
 
