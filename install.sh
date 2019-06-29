@@ -2,5 +2,5 @@
 
 # installs dotfiles from the dotfiles directory
 
-cp ./{.hyper.js,.vimrc,.zshrc} ~/
-cp ./style.css ~/.vscode/
+cp ./dotfiles/{.hyper.js,.vimrc,.zshrc} ~/
+cp ./dotfiles/style.css ~/.vscode/
