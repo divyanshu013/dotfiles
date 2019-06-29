@@ -24,6 +24,10 @@ chmod 777 install.sh sync.sh
 
 2. Sync from [gist](https://gist.github.com/divyanshu013/401a6e2eed576f0236ec66ffcbd1281a)
 
+## Related
+
+- [Mac dev setup]()
+
 ## Author
 
 [@divyanshu013](https://twitter.com/divyanshu013)
