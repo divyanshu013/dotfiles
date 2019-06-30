@@ -1,15 +1,15 @@
-.mtki {
+/* .mtki {
     font-family: 'flottflott';
     font-style: normal;
     font-weight: 400;
     font-size: 1.6em;
-  }
-/* .mtki {
-    font-family: 'Script12 BT';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1.2em;
   } */
+.mtki {
+    font-family: 'Space Mono';
+    font-style: italic;
+    font-weight: 400;
+    /* font-size: 1.2em; */
+  }
   
   .send-feedback.mask-icon {
     display: none;

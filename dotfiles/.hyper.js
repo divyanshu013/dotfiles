@@ -11,11 +11,12 @@ module.exports = {
     // default font size in pixels for all tabs
     fontSize: 16,
 
-    lineHeight: 1.25,
+    // lineHeight: 1.1,
+    lineHeight: 1.4,
 
     // font family with optional fallbacks
-    fontFamily:
-      '"Fira Mono", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: '"Fira Code Retina", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    // fontFamily: '"Space Mono", "Fira Code Retina", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
     cursorColor: "rgba(248,28,229,0.8)",
@@ -123,7 +124,7 @@ module.exports = {
     "hypercwd",
     "gitrocket",
     "hyper-search",
-    "hyperterm-oceanic-next",
+    // "hyperterm-oceanic-next",
     "hyper-statusline",
     //     'hyperline',
     "hyper-dark-scrollbar"

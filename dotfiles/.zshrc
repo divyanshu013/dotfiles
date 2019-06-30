@@ -11,7 +11,8 @@ export ZSH="/Users/divyanshu/.oh-my-zsh"
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+# ZSH_THEME="robbyrussell"
+ZSH_THEME="hyper-oh-my-zsh"
 
 
 
@@ -101,10 +102,12 @@ function bgnotify_formatted {
 
 plugins=(
   git
-  zsh-syntax-highlighting
+#  zsh-syntax-highlighting
   bgnotify
-  zsh-autosuggestions
+#  zsh-autosuggestions
   z
+  sudo
+  web-search
 )
 
 
@@ -221,3 +224,7 @@ export PATH="$PATH:$HOME/.rvm/bin"
 # shake phone
 alias shake-a="adb shell input keyevent 82"
 alias emulator="$ANDROID_HOME/tools/emulator -avd Android6"
+
+# zsh plugins
+source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
