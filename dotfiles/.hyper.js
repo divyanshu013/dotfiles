@@ -15,7 +15,8 @@ module.exports = {
     lineHeight: 1.4,
 
     // font family with optional fallbacks
-    fontFamily: '"Fira Code Retina", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily:
+      '"Fira Code Retina", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
     // fontFamily: '"Space Mono", "Fira Code Retina", Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // terminal cursor background color and opacity (hex, rgb, hsl, hsv, hwb or cmyk)
@@ -127,7 +128,7 @@ module.exports = {
     // "hyperterm-oceanic-next",
     "hyper-statusline",
     //     'hyperline',
-    "hyper-dark-scrollbar"
+    "hyper-dark-scrollbar",
   ],
   hyperline: {
     plugins: ["ip", "cpu", "spotify"]
