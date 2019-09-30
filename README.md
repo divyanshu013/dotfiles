@@ -26,7 +26,7 @@ chmod 777 install.sh sync.sh
 
 ## Related
 
-- [Mac dev setup]()
+- [Mac dev setup](https://github.com/divyanshu013/mac-dev-setup)
 
 ## Author
 
