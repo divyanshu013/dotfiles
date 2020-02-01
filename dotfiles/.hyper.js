@@ -12,7 +12,7 @@ module.exports = {
     fontSize: 16,
 
     // lineHeight: 1.1,
-    lineHeight: 1.4,
+    lineHeight: 1.5,
 
     // font family with optional fallbacks
     fontFamily:
@@ -103,14 +103,14 @@ module.exports = {
     bell: "SOUND",
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: false
+    copyOnSelect: false,
 
     // if true, on right click selected text will be copied or pasted if no
     // selection is present (true by default on Windows)
     // quickEdit: true,
 
     // URL to custom bell
-    // bellSoundURL: 'http://example.com/bell.mp3',
+    bellSoundURL: 'https://www.myinstants.com/media/sounds/magic_immune.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
   },
@@ -126,9 +126,12 @@ module.exports = {
     "gitrocket",
     "hyper-search",
     // "hyperterm-oceanic-next",
-    "hyper-statusline",
+//    "hyper-statusline",
     //     'hyperline',
     "hyper-dark-scrollbar",
+    "hyper-horizon-theme-high-contrast",
+"hyper-statusline",
+    // 'hyper-material-darker'
   ],
   hyperline: {
     plugins: ["ip", "cpu", "spotify"]
@@ -137,7 +140,7 @@ module.exports = {
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
   // to load it and avoid it being `npm install`ed
-  localPlugins: [],
+  // localPlugins: ["themer-hyper-dark"],
 
   keymaps: {
     // Example

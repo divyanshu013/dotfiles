@@ -165,6 +165,7 @@ alias gh="git push"
 alias gc="git checkout"
 alias gd="git diff"
 alias gdc="git diff --cached"
+alias gds="git diff --stat"
 alias gg="git log"
 alias ga="git add"
 alias gm="git commit"
@@ -176,23 +177,6 @@ alias yw="yarn watch"
 alias yb="yarn build"
 alias yt="yarn test"
 alias yf="yarn flow"
-alias cra="npx create-react-app"
-alias crna="npx create-react-native-app"
-
-
-
-alias n10="sudo n stable"
-alias n8="sudo n lts"
-
-
-
-alias rni="react-native run-ios"
-
-
-
-alias divlog="git log --after='(date -v-1d +%F 00:00:00)' --before='(date)'"
-alias lintpy="isort -rca && flake8"
-
 
 export REACT_EDITOR="code"
 export GPG_TTY=$(tty)
@@ -223,8 +207,28 @@ export PATH="$PATH:$HOME/.rvm/bin"
 
 # shake phone
 alias shake-a="adb shell input keyevent 82"
-alias emulator="$ANDROID_HOME/tools/emulator -avd Android6"
+alias android6="$ANDROID_HOME/tools/emulator -avd Android6"
+alias android8="$ANDROID_HOME/tools/emulator -avd Android8"
+alias android9="$ANDROID_HOME/tools/emulator -avd Android9"
+alias android10="$ANDROID_HOME/tools/emulator -avd Android10"
+alias ngrok="~/ngrok"
 
 # zsh plugins
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+# mongodbapp
+export PATH="/Applications/MongoDB.app/Contents/Resources/Vendor/mongodb/bin:$PATH"
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[[ -f /Users/divyanshu/code/serverless/node_modules/tabtab/.completions/serverless.zsh ]] && . /Users/divyanshu/code/serverless/node_modules/tabtab/.completions/serverless.zsh
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[[ -f /Users/divyanshu/code/serverless/node_modules/tabtab/.completions/sls.zsh ]] && . /Users/divyanshu/code/serverless/node_modules/tabtab/.completions/sls.zsh
+# tabtab source for slss package
+# uninstall by removing these lines or running `tabtab uninstall slss`
+[[ -f /Users/divyanshu/code/serverless/node_modules/tabtab/.completions/slss.zsh ]] && . /Users/divyanshu/code/serverless/node_modules/tabtab/.completions/slss.zsh
+
+# https://stackoverflow.com/questions/58272830/python-crashing-on-macos-10-15-beta-19a582a-with-usr-lib-libcrypto-dylib
+export DYLD_LIBRARY_PATH=/usr/local/opt/openssl/lib:$DYLD_LIBRARY_PATH
