@@ -178,6 +178,10 @@ alias yb="yarn build"
 alias yt="yarn test"
 alias yf="yarn flow"
 
+# linux only
+alias pbcopy='xsel --clipboard --input'
+alias pbpaste='xsel --clipboard --output'
+
 export REACT_EDITOR="code"
 export GPG_TTY=$(tty)
 
