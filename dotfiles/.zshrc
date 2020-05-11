@@ -102,9 +102,7 @@ function bgnotify_formatted {
 
 plugins=(
   git
-#  zsh-syntax-highlighting
   bgnotify
-#  zsh-autosuggestions
   z
   sudo
   web-search
