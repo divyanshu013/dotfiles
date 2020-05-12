@@ -94,8 +94,8 @@ ZSH_THEME="hyper-oh-my-zsh"
 
 function bgnotify_formatted {
   ## $1=exit_status, $2=command, $3=elapsed_time
-  [ $1 -eq 0 ] && title="Done" || title="Great Scott! 🚗"
-  bgnotify "$title in $3 s" "$2";
+  [ $1 -eq 0 ] && title="✅" || title="Great Scott! 🚗"
+  bgnotify "$title took $3 s" "$2";
 }
 
 
