@@ -82,9 +82,15 @@ plugins=(
   z
   sudo
   web-search
+  zsh-autosuggestions
+  zsh-syntax-highlighting
 )
 
 source $ZSH/oh-my-zsh.sh
+
+# fzf bindings
+source /usr/share/doc/fzf/examples/key-bindings.zsh
+source /usr/share/doc/fzf/examples/completion.zsh
 
 # User configuration
 
@@ -136,3 +142,9 @@ alias pbpaste='xsel --clipboard --output'
 
 export REACT_EDITOR="code"
 export GPG_TTY=$(tty)
+
+# n
+export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
+
+# PATH
+export PATH=~/.local/bin:$PATH # pgcli
