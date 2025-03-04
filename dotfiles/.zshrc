@@ -136,6 +136,13 @@ alias yw="yarn watch"
 alias yb="yarn build"
 alias yt="yarn test"
 
+alias p="pnpm"
+alias pd="pnpm run dev"
+alias pb="pnpm run build"
+alias pt="pnpm run test"
+alias ps="pnpm run start"
+alias pi="pnpm install"
+
 # linux only
 alias pbcopy='xsel --clipboard --input'
 alias pbpaste='xsel --clipboard --output'
