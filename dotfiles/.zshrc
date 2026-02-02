@@ -67,7 +67,7 @@ ZSH_THEME="robbyrussell"
 
 function bgnotify_formatted {
   ## $1=exit_status, $2=command, $3=elapsed_time
-  [ $1 -eq 0 ] && title="🚀" || title="Great Scott! 😱"
+  [ $1 -eq 0 ] && title="🚗" || title="Great Scott ⚡️"
   bgnotify "$title took $3 s" "$2";
 }
 
@@ -89,8 +89,7 @@ plugins=(
 source $ZSH/oh-my-zsh.sh
 
 # fzf bindings
-source /usr/share/doc/fzf/examples/key-bindings.zsh
-source /usr/share/doc/fzf/examples/completion.zsh
+source <(fzf --zsh)
 
 # User configuration
 
