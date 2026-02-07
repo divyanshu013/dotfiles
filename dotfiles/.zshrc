@@ -149,8 +149,5 @@ alias pbpaste='xsel --clipboard --output'
 export REACT_EDITOR="code"
 export GPG_TTY=$(tty)
 
-# n
-export N_PREFIX="$HOME/n"; [[ :$PATH: == *":$N_PREFIX/bin:"* ]] || PATH+=":$N_PREFIX/bin"  # Added by n-install (see http://git.io/n-install-repo).
-
-# PATH
-export PATH=~/.local/bin:$PATH # pgcli
+# auto start zellij
+# eval "$(zellij setup --generate-auto-start zsh)"
