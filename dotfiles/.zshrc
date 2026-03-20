@@ -2,7 +2,8 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-export ZSH="/home/div/.oh-my-zsh"
+# Check path for linux
+export ZSH="$HOME/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -128,12 +129,6 @@ alias gg="git log"
 alias ga="git add"
 alias gm="git commit"
 alias gf="git fetch"
-alias y="yarn"
-alias ys="yarn start"
-alias yd="yarn dev"
-alias yw="yarn watch"
-alias yb="yarn build"
-alias yt="yarn test"
 
 alias p="pnpm"
 alias pd="pnpm run dev"
@@ -141,6 +136,13 @@ alias pb="pnpm run build"
 alias pt="pnpm run test"
 alias ps="pnpm run start"
 alias pi="pnpm install"
+
+alias b="bun"
+alias bd="bun run dev"
+alias bb="bun run build"
+alias bt="bun run test"
+alias bs="bun run start"
+alias bi="bun install"
 
 # linux only
 alias pbcopy='xsel --clipboard --input'
